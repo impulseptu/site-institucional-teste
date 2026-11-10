@@ -33,11 +33,8 @@ O resultado fica em `dist/` e pode ser servido por qualquer hospedagem de arquiv
 
 As cores estão em `src/styles.css`: azul profundo `#061C47`, azul elétrico `#0A59E8` e ciano `#19D9E8`. Títulos usam Montserrat e textos usam Inter. As fontes são carregadas do Google Fonts, com fontes locais de fallback.
 
-## Publicação sugerida
+## GitHub e publicação do site
 
-1. Crie ou selecione um repositório da organização `impulseptu` com permissão de escrita para a conexão GitHub.
-2. Envie todos os arquivos deste diretório, inclusive `public/logo-original.jpg`. Se gerar `package-lock.json` com `npm install`, inclua-o também.
-3. Configure a hospedagem estática para executar `npm ci && npm run build` e publicar `dist/`.
-4. Confirme o domínio e revise os metadados sociais ao definir a URL oficial.
+O código está em [impulseptu/site-institucional-teste](https://github.com/impulseptu/site-institucional-teste). A conta `impulseptu` está configurada no GitHub como conta de usuário. A verificação automática em `.github/workflows/ci.yml` executa os testes e a compilação a cada envio.
 
-O projeto não inclui implantação automática porque o destino público e as permissões do repositório precisam ser confirmados.
+Este repositório publica o **código**, mas ainda não hospeda a landing page em uma URL pública. Para hospedá-la, configure o serviço escolhido para executar `npm install && npm run build` e servir `dist/`. Depois de definir o domínio oficial, revise os metadados sociais e o endereço canônico.
