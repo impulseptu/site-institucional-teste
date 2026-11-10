@@ -41,4 +41,3 @@ As cores estão em `src/styles.css`: azul profundo `#061C47`, azul elétrico `#0
 4. Confirme o domínio e revise os metadados sociais ao definir a URL oficial.
 
 O projeto não inclui implantação automática porque o destino público e as permissões do repositório precisam ser confirmados.
-

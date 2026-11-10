@@ -1,0 +1,30 @@
+declare module 'lucide-react' {
+  import type { ComponentType, SVGProps } from 'react';
+  type Icon = ComponentType<SVGProps<SVGSVGElement> & { size?: number; strokeWidth?: number }>;
+  export const ArrowDownRight: Icon;
+  export const ArrowRight: Icon;
+  export const ArrowUpRight: Icon;
+  export const Bot: Icon;
+  export const Check: Icon;
+  export const ChevronDown: Icon;
+  export const CircleHelp: Icon;
+  export const Code2: Icon;
+  export const Compass: Icon;
+  export const ExternalLink: Icon;
+  export const Globe2: Icon;
+  export const Layers3: Icon;
+  export const Mail: Icon;
+  export const MapPin: Icon;
+  export const Menu: Icon;
+  export const MessageCircle: Icon;
+  export const MonitorSmartphone: Icon;
+  export const Rocket: Icon;
+  export const Search: Icon;
+  export const Settings2: Icon;
+  export const ShieldCheck: Icon;
+  export const ShoppingBag: Icon;
+  export const Sparkles: Icon;
+  export const Users: Icon;
+  export const Workflow: Icon;
+  export const X: Icon;
+}
